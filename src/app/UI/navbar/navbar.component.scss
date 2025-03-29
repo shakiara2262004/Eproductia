@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #F5F5DC;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navbar-brand {
+    color: #333;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav li {
+    margin-right: 20px;
+  }
+  
+  .navbar-nav a {
+    color: #333;
+    transition: color 0.2s ease;
+  }
+  
+  .navbar-nav a:hover {
+    color: #666;
+  }
+  
+  .dropdown-menu {
+    background-color: #F5F5DC; 
+    border: none;
+    padding: 10px;
+  }
+  
+  .dropdown-item {
+    color: #333;
+    transition: color 0.2s ease;
+  }
+  
+  .dropdown-item:hover {
+    color: #666;
+  }

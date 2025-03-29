@@ -1,0 +1,13 @@
+  <div class="card" style="width: 18rem;">
+    
+   <a [routerLink]="['/productview' , data.id]" routerLinkActive="router-link-active" ><img src="{{data.image}}" alt="Product Image" class="product-img" height="100px" width="100px"></a>
+    <div class="card-body">
+      <h5 class="card-title">{{data.producttitle}}</h5>
+      <h5 class="card-price">{{data.price}}</h5>
+      <h5 class="card-category">{{data.category}}</h5>
+       <p class="card-text">{{data.description}}</p>
+       <h5 class="card-rating">{{data.rate}}</h5>
+       <a href="#" class="btn btn-primary">Add to cart</a>
+
+    </div>
+  </div>
